@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///new-books-collection.db"
 db = SQLAlchemy()
 db.init_app(app)
-app.secret_key = 'tO$&!|0wkamvVia0?n$NqIRVWOG'
+app.secret_key = 'Your_Ssecret_Key'
 Bootstrap5(app)
 choices = [1, 2, 3, 4, 5]
 
